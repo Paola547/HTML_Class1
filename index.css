@@ -1,0 +1,63 @@
+html, body{
+display: flex;
+margin: 0px;
+height: 100%;
+padding: 0px;
+flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20%;
+    background-color: white;
+    color: white;
+    padding-right: 40px;
+
+}
+#contenedor_principal{
+    display: flex;
+    height: 60%;
+    background-color: rgb(244, 240, 233);
+    color: black
+}
+.pie_pagina{
+    display: flex;
+    height: 20%;
+    background-color: black;
+    color: white;
+}
+.lateral{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right:  20px;
+    background-color: aqua;
+    width: 30%;
+    padding-right: 10px;
+    
+}
+.principal{
+    padding: 0px 30px;
+    width: 70%;
+}
+ul li{
+    display: inline;
+    margin-left: 25px;
+}
+ul li:hover{
+    color: brown;
+}
+.parrafo{
+    text-align: justify;
+    border: 10px solid;
+    border-color: red;
+    border-radius: 30px;
+    font-size: 20px
+
+
+}
+ol li{
+    list-style: none;
+}
