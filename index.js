@@ -47,4 +47,9 @@ if(condition) {
         }
     
 }
+let variablefor = ""
+for (variablefor=1; variablefor<3; variablefor++){
+    console.log("mi variable es" + variablefor);
+}
+
 //el ciclo "for" es un bucle. El scoup es el alcance, se marca con llaves
